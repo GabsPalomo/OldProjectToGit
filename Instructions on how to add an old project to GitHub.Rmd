@@ -24,4 +24,30 @@ $ cd /C/Users/Bella/Documents/R/Test_GitBash
 
 $ git init
 
-8. 
+8. Add the files to your new local repository. This will allow them to be committed as the "First Commit". Don´t forget the . at the end
+
+$ git add .
+
+9. Now create your first commit message. 
+
+$ git commit -m "First commit"
+
+10. Add the URL from your GitHub repository.
+
+$ git remote add origin https://github.com/GabsPalomo/Test_GitBash.git
+
+11. Verify the new remote URL
+
+$ git remote -v
+
+12. Push the changes you made on your local repository to your remote repository on GitHub. This is your first push. That will record origin/master as a remote tracking branch, and will enable the next push to automatically push master to origin/master.
+
+$ git push -u origin master
+
+13. Then you can use
+
+$ git checkout master
+
+or to push
+
+$ git push
