@@ -1,0 +1,31 @@
+---
+title: "Test_GitBash"
+author: "Gabriela Palomo"
+output: html_document
+---
+
+### How to add an existing project to GitHub using Git Bash
+
+1. Make sure your RStudio command shell is set to be Git Bash. 
+
+2. Make a new repository in your GitHub account. 
+
+3. Copy the remote repository URL from your GitHub project. 
+
+4. Open your project in RStudio. Remember this is an old project you´ve never linked to GitHub before. 
+
+5. Open Git Bash. 
+
+6. Change the directory to to your project´s directory. In this case I did the following. cd means change directory. And always start with a / before the C. 
+
+$ cd /C/Users/Bella/Documents/R/Test_GitBash
+
+7. Now initialize the local directory as a Git repository. 
+
+$ git init
+
+8. Add the files to your new local repository. This will allow them to be committed as the "First Commit". Don´t forget the . at the end
+
+$ git add .
+
+9. 
