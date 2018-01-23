@@ -44,7 +44,9 @@ $ git remote -v
 
 $ git push -u origin master
 
-13. Then you can use
+13. Close your project and open it again. Now you´ll be able to commit, push and pull. 
+
+14. Then you can use
 
 $ git checkout master
 
